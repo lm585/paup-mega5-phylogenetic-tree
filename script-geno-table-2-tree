@@ -1,0 +1,39 @@
+
+paste ref.3colum  /home/Sunhh/WM_Reseq/Final_Raw/*/*.1col > temp-102-acc.table &
+
+## no N in the line, only A/C/G/T
+## at least one SNP among all accessions (including ref)
+nohup  snp-table-filter.2     temp-102-acc.table        wm-102acc-snp.noMiss.table  0.999999 &
+
+## ==> script-cut-1-colum  (wwz server)
+
+c=3
+
+while [ $c -lt 106 ]
+do
+ echo $c
+ cut -f $c    wm-102acc-snp.noMiss.table  > wm-col-$c.fasta
+ c=`expr $c + 1`
+done
+
+
+
+## ==>script-colum-2-fasta  ### each column -> each fasta file
+awk '
+BEGIN {ORS = ""}
+ {
+if(NR == 1)
+{
+ print ">" $1 "\n";
+}
+else
+{
+ print $1;
+ #if(NR % 100 == 0)
+ #  print "\n";
+}
+ }
+END {print "\n";}
+ ' $1
+
+ java -cp ~/bin/readseq.jar run  -informat=8 -f 17   wm-102acc-snp.noMiss.faseq # fasta -> nexus format) 
