@@ -37,3 +37,6 @@ END {print "\n";}
  ' $1
 
  java -cp ~/bin/readseq.jar run  -informat=8 -f 17   wm-102acc-snp.noMiss.faseq # fasta -> nexus format) 
+ 
+ #edit tree nexus file
+ :1, $ s/ \([0-9][0-9]*\),/ RUF_\1,/
