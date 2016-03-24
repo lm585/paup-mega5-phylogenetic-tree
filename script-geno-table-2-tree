@@ -40,3 +40,7 @@ END {print "\n";}
  
  #edit tree nexus file
  :1, $ s/ \([0-9][0-9]*\),/ RUF_\1,/
+#branch length from non-zero to branch 1; from 0 to 0.5
+:s/:[1-9][0-9]*/:1/g
+:s/:0/:0.5/g
+
