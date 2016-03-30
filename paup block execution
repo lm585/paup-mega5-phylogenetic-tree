@@ -1,0 +1,17 @@
+# use the absolute number of nucleotide differences between taxa as the distance measure (dset dist=abs); 
+# Use the LOG command to save showdist op in memory to the file named "myoutput.log";
+
+$ cat run.nex
+#NEXUS
+
+begin paup;
+  execute rice-273samp.chrM.noIndel.heterYes.miss20.fasta.nexus;
+  dset dist=abs;
+  log file=myoutput.log;
+  showdist;
+  log stop;
+  quit;
+end;
+
+
+$ ./paup4b10-opt-linux-a run.nex
