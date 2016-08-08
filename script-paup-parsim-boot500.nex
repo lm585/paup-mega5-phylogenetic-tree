@@ -1,0 +1,10 @@
+#NEXUS
+
+begin paup;
+  execute  cucumber-sv-all.hardwickii.nex  ;
+  set MAXTREES = 10000;
+  set Criterion =  Parsimony;
+  bootstrap BSeed=123 NReps=500 Search=Heuristic ConLevel=50  TreeFile=cucumber-sv-all.parsim.bootstrap.tre Format=Nexus  BrLens=Yes  Replace=Yes  /  start=stepwise addseq=random nreps=20 swap=TBR;
+  savetrees File=cucumber-sv-all.parsim.bootstrap.consens.tre from=1 to=100 savebootp=nodelabels Replace=Yes BrLens=Yes;
+  quit;
+end;
