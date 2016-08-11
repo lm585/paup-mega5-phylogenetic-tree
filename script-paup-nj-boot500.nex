@@ -1,0 +1,10 @@
+#NEXUS
+
+begin paup;
+  execute  cucumber-sv-all.hardwickii.nex  ;
+  set MAXTREES = 10000;
+  set Criterion =  Distance;
+  bootstrap BSeed=123 NReps=500 Search=nj  ConLevel=50  TreeFile=cucumber-sv-all.nj.bootstrap.tre Format=Nexus  BrLens=Yes  Replace=Yes  / ;
+  savetrees File=cucumber-sv-all.nj.bootstrap.consens.tre from=1 to=100 savebootp=nodelabels Replace=Yes BrLens=Yes;
+  quit;
+end;
