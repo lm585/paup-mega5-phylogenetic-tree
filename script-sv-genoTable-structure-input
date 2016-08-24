@@ -1,4 +1,4 @@
-#head   Supplementary_Table_miss0d05-minAllele2.transpose  | cut -f 1-6
+##head   Supplementary_Table_miss0d05-minAllele2.transpose  | cut -f 1-6
 char    SV1G00000400    SV1G00000500    SV1G00000700    SV1G00001500    SV1G00001600
 type    deletion        deletion        deletion        deletion        deletion
 CG1697  0       0       0       0       0
