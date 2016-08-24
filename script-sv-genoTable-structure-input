@@ -1,0 +1,46 @@
+#
+
+if [ $# -ne 2 ]
+then
+  echo $0  "   SV-genotype-table      2(1)"
+  echo "ignore first 2(1) lines"
+  exit 1
+fi
+
+awk 'BEGIN {FS = "\t"; OFS = ""; ORS = ""}
+NR > '$2' {
+ print $1 "\t";
+ for(i = 2; i <= NF; i++)
+ {
+  if($i == "0")
+    print "2";
+  else if($i == "1")
+    print "1";
+  else if($i == "N")
+    print "-9";
+  else
+    print "-1";
+  if(i == NF)
+    print "\n";
+  else
+    print "\t";
+ } 
+ print $1 "\t";
+ for(i = 2; i <= NF; i++)
+ {
+  if($i == "0")
+    print "2";
+  else if($i == "1")
+    print "1";
+  else if($i == "N")
+    print "-9";
+  else
+    print "-1";
+  if(i == NF)
+    print "\n";
+  else
+    print "\t";
+ }
+
+}   
+    ' $1
