@@ -1,0 +1,21 @@
+#
+cat temp-accession-ID | while read ll
+do
+  popu=`grep "^$ll	" cucumber-sampleID-popu | head -1 | cut -f 2`
+  echo -n "$ll	"
+  if [ "$popu" = "East Asian" ]
+  then
+    echo 1;
+  elif [ "$popu" = "Eurasian" ]
+    then
+    echo 2;
+  elif [ "$popu" = "Xishuangbanna" ]
+    then
+    echo 3;
+  elif [ "$popu" = "Indian" ]
+    then
+    echo 4;
+  else
+    echo 5;
+  fi;
+done
