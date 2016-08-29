@@ -1,0 +1,11 @@
+#NEXUS
+
+begin paup;
+  execute   cucumber-sv-all.hardwickii.2nucleotide.nex   ;
+  set MAXTREES = 10000;
+  set criterion=likelihood;
+  lset nst=1 basefreq=empirical variant=hky  rates=equal;
+  hsearch start=stepwise addseq=random nreps=1 rseed=75586 swap=TBR;
+  savetrees file=cucumber-sv-all.likely.1rep.tre from=1 to=100  BrLens=Yes ;
+  quit;
+end;
