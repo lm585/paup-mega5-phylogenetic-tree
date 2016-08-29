@@ -1,0 +1,220 @@
+#NEXUS
+begin data;
+dimensions ntax=115  nchar=26788;
+format datatype=dna MISSING=-  transpose;
+taxlabels  
+CG1697_Ea
+CG5801_Ea
+CG1811_Ea
+CG3085_Ea
+CG3087_Ea
+CG4081_Ea
+CG4182_Ea
+CG4210_Ea
+CG1778_Ea
+CG1247_Ea
+CG1031_Ea
+CG1876_Ea
+CG3007_Ea
+CG3010_Ea
+CG3076_Ea
+CG3011_Ea
+CG3127_Ea
+CG3079_Ea
+CG1043_Ea
+CG1077_Ea
+CG1083_Ea
+CG1149_Ea
+CG1541_Ea
+CG1292_Ea
+CG1322_Ea
+CG4041_Ea
+CG1071_Ea
+CG1373_Ea
+CG4357_Ea
+CG4358_Ea
+CG4359_Ea
+CG4360_Ea
+CG4354_Ea
+CG1602_Ea
+CG1601_Ea
+CG3143_Ea
+CG4353_Ea
+CG5539_Eu
+CG7023_Eu
+CG5232_Eu
+CG7086_Eu
+CG5234_Eu
+CG5483_Eu
+CG5670_Eu
+CG5797_Eu
+CG6508_Eu
+CG7017_Eu
+CG7110_Eu
+CG7704_Eu
+CG5031_Eu
+CG5326_Eu
+CG5420_Eu
+CG5479_Eu
+CG5790_Eu
+CG6562_Eu
+CG6578_Eu
+CG6586_Eu
+CG5278_Eu
+CG5756_Eu
+CG6542_Eu
+CG6600_Eu
+CG6601_Eu
+CG5071_Eu
+CG5786_Eu
+CG6647_Eu
+CG6663_Eu
+CG9142_Xi
+CG9143_Xi
+CG9146_Xi
+CG9153_Xi
+CG9160_Xi
+CG9164_Xi
+CG9165_Xi
+CG9169_Xi
+CG9174_Xi
+CG9185_Xi
+CG9187_Xi
+CG9191_Xi
+CG9192_Xi
+CG9197_Xi
+CG9198_Xi
+CG9199_Xi
+CG9201_Xi
+CG9203_Xi
+CG9207_Xi
+CG8099_In
+CG8216_In
+CG7702_In
+CG7744_In
+CG7747_In
+CG7748_In
+CG8093_In
+CG8094_In
+CG8119_In
+CG8191_In
+CG8163_In
+CG8160_In
+CG8198_In
+CG8039_In
+CG8712_In
+CG8724_In
+CG0001_ha
+CG0003_ha
+CG0005_ha
+CG8916_In
+CG0002_ha
+CG0010_ha
+CG0004_ha
+CG0017_ha
+CG0011_ha
+CG0013_ha
+CG0014_ha
+CG0015_ha
+CG0020_ha
+CG0016_ha
+ ;
+matrix
+SV1G00000100	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	T	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	T	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+SV1G00000200	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	-	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	-	T	-	A	T	T	T	T	T	T
+SV1G00000300	T	T	T	T	A	T	A	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	A	-	T	T	T	T	-	-	-	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	-	-	-	A	A	-	A	T	T	A	A	A	T	A	T	T	T	T	T	A	A	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T
+SV1G00000400	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	A	T	T	T	T	T	T	T	T	T
+SV1G00000500	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	A	T	A	A	A	A	A	A	A	A	A	A	A	A	A	T	A	-	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	A	T	T	T	T	T	A	T	T	T	T	T	T	T	T
+SV1G00000600	-	A	-	-	A	-	A	-	A	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	T	-	-	-	-	-	A	-	T	T	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	T	-	A	A	-	A	-	-	-	A	A	-	-	-	-	-	-	A	-	-	T	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+SV1G00000700	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	T	A	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T
+SV1G00000800	-	A	-	-	-	A	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	T	A	-	-	-	T	-	-	-	-	-	-
+SV1G00000900	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	-	T	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	-	T	T	T	T	T	T	T	T	T	T	T	-	T	T	-	-	T	T	T	T	T	-	T	T	-	T	-	T	A	T
+SV1G00001000	-	-	-	-	-	T	A	-	-	-	-	-	-	-	-	-	T	-	-	-	A	-	-	-	-	-	-	T	-	-	-	-	-	-	-	-	-	-	-	-	-	T	T	-	-	T	-	T	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	T	-	-	-	-	T	T	-	-	-	-	T	-	-	-	-	-	-	-	-	-	-	-	T	-	-	-	-	-	-	T	-	-	T	T
+SV1G00001100	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	-	-	-	-	-	-	-	T	-	-	-	-	-	-	-	-	T	-	T	-	T	-	-	-	-	-	-	-	-	-	-	-	-	-	-	T	-	-	-	-	-	-	-	-	-	-	-	T	-	T	-	T	T	-	T	T	T	T	-	T	T	-	-	A	T	T	T	-	-	T	T	-	-	-	T	-	T
+SV1G00001200	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	-	A	T	T	T	T	-	T
+SV1G00001300	T	T	T	A	T	T	T	T	T	T	T	-	T	A	T	T	-	T	T	T	T	T	T	T	T	T	T	T	-	T	-	-	T	T	-	-	-	A	T	A	A	A	T	A	A	T	A	A	A	T	T	-	-	-	T	-	T	-	T	-	-	-	A	-	-	-	-	-	A	-	A	A	-	A	A	-	-	A	A	A	A	-	-	-	-	T	A	T	-	-	A	A	A	T	T	A	-	-	T	A	A	T	T	-	T	-	T	-	T	A	T	-	T	-	T
+SV1G00001400	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	-	T	T	T	T	T	T	T	T	T
+SV1G00001500	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	A	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T
+SV1G00001600	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	-	A	T	T	T	T	T	T
+SV1G00001700	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	-	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	A	T	-	T	-	A	T	T	T	T	-	-
+SV1G00001800	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	A	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T
+SV1G00001900	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	A	T	T	T	-	T	T	T	T	T	T	T	A	-
+SV1G00002000	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	A	T	T	T	T	T	T	T	T	T
+SV1G00002100	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	A	T	-	T	-	-	T	T	T	T	T	T
+SV1G00002200	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	A	T	T	T	A	T	T	T	T	T	T	T	T	T
+SV1G00002300	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	-	A	T	T	T	T	T	T
+SV1G00002400	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	-	A	T	T	T	T	T	T
+SV1G00002500	-	T	-	-	-	A	-	-	-	T	A	A	A	A	A	-	A	-	A	T	A	-	T	-	T	T	-	-	A	-	-	-	-	-	-	-	-	-	-	-	T	-	T	T	-	T	-	T	-	-	-	-	-	A	-	T	A	A	A	A	A	-	-	-	-	-	-	T	T	-	T	-	-	-	A	-	A	-	-	-	T	-	A	T	-	-	T	A	-	T	-	-	T	A	T	A	A	T	-	-	A	-	T	-	-	-	-	A	A	-	T	-	T	-	T
+SV1G00002600	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	-	T	-	-	T	T	-	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	-	T	-	T	-	A	T	T	T	T	-	T
+SV1G00002700	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T
+SV1G00002800	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	-	T	T	T	T	T	T	T	A	T
+SV1G00002900	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	A	T	T	T	A	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	A	A	A	-	A	A	A	T	A	T	A	A	A	A	T	A	A	A	T	A	T	A	A	A	A	A	A	A	A	A	A	A	T	A	A	A	A	A	A	A	A	A	T	A	A	A	A	-	T	T	A	A	A	A	A	T	T	A	A	A	A	T	A	A	T	A	A	A	A	A	A	A	A	A	A	A	A
+SV1G00003000	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	-	T	T	T	T	T	T	T	-	T
+SV1G00003100	-	-	A	-	A	-	A	T	-	T	-	T	-	T	-	-	-	-	-	-	T	A	-	A	A	T	-	-	-	-	A	-	-	-	-	-	-	-	-	A	A	-	T	-	-	-	-	-	-	A	A	A	T	T	A	T	A	-	A	A	A	A	-	T	A	-	-	A	T	-	-	A	T	-	-	A	T	T	T	A	A	-	T	-	A	-	A	-	-	A	A	-	T	A	A	A	-	T	-	-	A	A	T	A	-	-	A	-	A	A	-	T	A	-	T
+SV1G00003200	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	A	T	T	T	-	T	T	T	T	T	T	T	-	-
+SV1G00003300	-	-	A	-	-	-	-	A	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	-	-	-
+SV1G00003400	A	-	-	A	A	A	A	T	A	A	A	A	-	A	A	A	A	-	-	A	A	-	T	A	A	-	-	-	-	A	-	A	A	A	A	A	A	A	A	A	T	-	T	-	-	A	T	A	T	T	A	T	-	A	-	A	-	A	A	A	-	T	A	A	-	A	-	-	A	A	-	A	A	-	A	T	A	A	A	T	A	T	A	-	A	A	A	T	-	T	T	A	-	-	A	A	T	A	A	A	T	A	A	A	-	-	A	A	-	A	A	-	A	A	A
+SV1G00003500	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T
+SV1G00003600	-	-	-	-	-	A	A	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	A	-	A	-	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-
+SV1G00003700	A	A	-	-	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	-	-	A	A	A	A	A	A	A	-	-	-	A	A	A	-	-	A	A	-	A	A	A	A	-	A	A	A	A	-	-	A	A	-	A	A	A	A	A	A	A	A	A	A	-	A	-	-	A	A	A	A	A	A	-	-	A	A	-	A	A	-	A	-	A	A	A	A	A	-	A	A	A	A	A	-	-	A	A	-	A	-	A	A	A	A	-	-	-	A	A	A	A	A	-	A
+SV1G00003800	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	-	T	T	T	A	T	A	T	T	T
+SV1G00003900	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	-	T	T	T	A	T	-	T	T	T
+SV1G00004000	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	-	-	T	-	T	-	T	-	-	-	T	-	A	-	T
+SV1G00004100	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	-	-	T	-	T	-	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	-	T	-	-	-	T	T	T	-	T	T	T	T	T	T	T	A	T
+SV1G00004200	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	-	T	T	T	T	T	T	T	T	T
+SV1G00004300	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	-	T	-	-	-	-	-	-	T	-	-	-	-	-	-	T	T	-	T	T	T	T	T	-	-	-	-	T	T	-	T	-	T	T	-	-	T	-	T	-	T	-	-	T	T	T	T	-	-
+SV1G00004400	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	-	-	-	-	-	-	A	-	-	A	-	-	-	T	T	-	-	T	T	T	T	-	-	-	-	T	T	-	T	-	T	T	-	-	T	-	T	-	T	-	-	T	T	T	T	-	-
+SV1G00004500	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	-	T	-	-	T	T	-	T	-	-	-	T	-	T	T	T	T	T	-	T	T	T	T	-	-	-	T	T	T	A	T	-	T	T	-	T	T	-	T	-	T	-	-	T	T	T	T	T	T
+SV1G00004600	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T
+SV1G00004700	T	-	T	T	T	T	T	T	T	-	-	-	T	T	T	T	T	T	-	T	T	T	-	-	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	-	-	T	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	T	-	-	T	T	-	-	T	T	T	T	T	-	T	-	-	-	-	T	-	-	-	A	-	-	-	-	-	-	-	-
+SV1G00004800	T	A	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	T	-	T	T	T	T	A	T	T	T	T	T	T	-	-	T	-	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	-	T	T	T	-	T	T	T	T	T	T	T	T	T	T	-	T	-	A	-	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	-	-	T	-	T	-	-	T	T	T	A
+SV1G00004900	T	T	T	T	-	T	T	-	-	T	T	-	-	-	-	T	-	T	T	-	-	-	T	T	T	-	-	T	-	-	-	T	-	T	-	T	-	-	-	-	-	-	-	T	-	-	-	T	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	T	-	-	-	T	-	T	A	-	-	T	-	T	-	-	T	T	T	T	T	-	-	T	T	-	-	T	-	-	T	-	T	T	T	T	-	T	T	-	T	T	T	T	T	T	T	T	T
+SV1G00005000	T	T	T	T	A	T	T	-	T	T	T	T	A	-	-	T	-	T	T	T	-	T	T	T	T	-	-	T	-	-	-	T	T	T	-	T	T	-	-	-	T	T	T	T	-	T	-	T	-	-	-	-	-	-	-	-	-	-	A	T	-	-	-	-	-	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T
+SV1G00005100	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	A	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T
+SV1G00005200	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	A	T	T	T	T	T	T	T	A	T
+SV1G00005300	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	A	A	A	A	T	A	A	A	T	A	T	A	T	T	T	T	T	A	T	A	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	A	T	-	T	A	A	T	T	T	T	-	T
+SV1G00005400	T	T	T	T	T	T	T	T	T	T	T	-	-	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	-	T	T	-	-	-	T	T	T	-	T	T	T	-	T	-	-	-	-	-	-	T	-	T	-	-	T	-	-	T	T	-	T	T	T	A	T	T	T	-	-	T	T	-	T	T	-	T	T	-	-	T	-	-	-	T	-	-	-	T	T	T	-	-
+SV1G00005500	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	-	-	A	A	-	T	A	A	A	T	A	T	A	T	A	T	-	T	A	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	-	T	-	-	T	T	T	T	-	T
+SV1G00005600	-	-	-	-	-	-	-	-	-	A	-	-	-	-	-	-	-	-	-	-	A	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	A	-	A	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+SV1G00005700	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	-	T	-	T	-	-	-	-	T	T	T	T	A	T
+SV1G00005800	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	-	T	T	T	T	T	T	T	-	T
+SV1G00005900	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	A	T	T	T	T	T	T	T	A	T
+SV1G00006000	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-
+SV1G00006100	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	-	T	T	T	T	T	T	T	T	T
+SV1G00006200	T	T	T	T	-	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	-	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	-	T	T	-	-	-	-	T	T	-	T	A	T	T	-	-	T	-	-	-	-	-	-	T	T	T	T	-	-
+SV1G00006300	T	T	T	T	-	T	T	T	T	T	T	-	-	-	-	-	T	-	-	T	T	T	T	T	T	T	T	T	T	T	T	T	-	-	-	-	-	-	-	T	-	T	T	T	T	T	T	T	-	-	-	-	-	-	-	-	T	-	-	T	-	-	T	-	-	T	-	-	-	-	-	T	-	-	-	-	-	T	T	T	T	-	-	-	T	T	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	T	-	-	-	-	T	T	T	T	-	-
+SV1G00006400	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T
+SV1G00006500	T	-	T	T	A	T	A	A	A	A	A	A	A	A	A	T	A	T	T	A	T	T	A	T	T	A	-	T	-	-	-	T	A	A	-	T	-	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	T	A	A	A	-	A	A	A	A	A	-	A	A	A	A	-	-	A	A	A	A	A	-	A	A	A	A	A	-	A	A	A	A	A	A	A	A	A	A	A	A	A	A	-	A	A	A	A	A	A	A	A	-	-	A	A	A	A	A	A	T	A	T
+SV1G00006600	T	A	T	T	A	T	T	A	A	T	T	T	T	A	T	T	T	T	T	T	T	T	A	T	T	T	A	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	T	T	T	T	T	T
+SV1G00006700	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T
+SV1G00006800	T	T	T	T	T	-	T	-	-	T	A	-	A	A	-	T	T	-	-	T	A	T	T	T	T	A	T	A	-	-	-	-	-	-	A	-	-	T	T	T	-	T	T	T	T	T	T	T	T	-	T	T	-	-	A	T	T	-	A	T	-	T	A	-	-	T	-	A	-	A	T	-	T	-	T	T	T	T	T	T	T	-	T	-	T	T	T	T	T	T	A	T	T	T	T	T	T	T	T	T	A	-	T	T	-	-	T	T	T	A	-	A	T	-	T
+SV1G00006900	-	-	-	-	-	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	A	A	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	A	A	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	-	-	-	A	-	-
+SV1G00007000	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	-	T	T	T	T	T	T	T	T	T
+SV1G00007100	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	A	A	A	-	A	A	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	A	A	-	-	-	A	-	-	-	-	-	A	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	-	-	A	-	-	-	-	-	-	-	-
+SV1G00007200	T	T	T	T	T	T	T	T	T	T	A	-	-	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	-	-	-	-	A	-	T	-	A	-	-	-	-	-	-	-	-	T	-	T	-	-	-	-	-	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	-	-	T	A	T	-	-	-	T	T	-	T	T	-	T	-	T	T	T	T	-	T	-	-	-	-	-	-	-	-	T	-
+SV1G00007300	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	-	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T
+SV1G00007400	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	A	T	T	T	T	T	T	T	A	T
+SV1G00007500	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T
+SV1G00007600	T	T	T	T	T	T	T	T	T	T	-	-	-	T	T	T	A	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	A	A	A	A	A	-	A	T	A	A	-	-	-	-	-	-	-	-	T	A	T	-	-	A	-	-	-	-	-	-	-	-	A	A	A	A	-	A	A	-	-	A	A	A	A	-	-	A	A	T	A	A	-	T	T	T	T	T	A	T	A	T	T	-	T	A	-	-	-	A	-	A	-	-	A	-	A
+SV1G00007700	T	A	T	T	-	T	A	T	A	-	A	A	A	-	T	A	A	T	T	A	-	T	T	A	A	-	A	T	A	-	A	A	-	A	A	A	A	A	-	A	T	A	A	A	A	T	A	A	A	A	A	A	A	A	T	A	A	-	A	T	A	A	A	A	A	A	A	A	T	A	A	A	A	A	A	T	-	A	A	A	A	A	A	A	A	A	A	A	-	T	A	-	A	T	A	A	A	T	-	A	-	-	A	A	T	-	A	A	T	A	T	T	T	A	A
+SV1G00007800	T	T	-	T	T	T	-	T	-	T	T	T	-	T	-	-	-	-	-	T	T	-	T	-	T	T	T	T	-	T	-	-	-	-	-	-	-	-	-	T	-	T	T	T	-	T	T	T	-	T	-	-	-	-	T	-	T	A	-	-	T	T	-	-	-	-	T	-	-	T	-	-	T	-	A	-	T	T	-	-	T	T	T	T	-	T	T	-	-	T	T	T	T	T	T	T	-	T	T	T	T	T	T	A	-	-	T	T	A	A	-	-	T	-	A
+SV7G00281500	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	-	-	T	T	T	T	T	-	T	T	T	T	T	T	T	-	T	T	T	T	T	T	-	-	T	T	T	-	T	-	-	T	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	T	-	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	-	T	T
+SV7G00281600	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	-	T	T	T	T	T	T	T	T	T
+SV7G00281700	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	A	T	T	T	T	T	T	T	T	T	T	T	T	T	A	A	T	T	-	-	T	T	T	T	T	T	T	A	T
+SV7G00281800	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	A	T	T	T	A	T	T	T	A	T	T	T	T	T	T	T	A	T
+SV7G00281900	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T
+SV7G00282000	T	-	T	-	T	T	T	T	T	A	T	-	T	T	T	T	T	-	T	A	T	T	-	T	A	A	-	T	-	-	A	A	T	T	T	T	T	T	-	-	T	A	A	-	A	A	-	A	-	T	-	T	-	T	-	T	-	T	-	-	T	T	A	-	-	T	T	T	T	T	T	T	T	-	T	T	T	A	T	T	-	T	A	-	T	A	A	T	-	T	T	T	T	-	T	T	-	T	T	T	T	A	T	T	A	T	A	T	A	T	T	A	A	T	T
+SV7G00282100	-	-	-	-	-	-	-	-	-	-	-	-	-	T	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	T	-	T	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	T	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+SV7G00282200	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	A	T	T	A	T	A	T	T	T
+SV7G00282300	-	A	A	A	A	-	-	-	-	-	-	-	-	A	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	A	-	-	A	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	-	-	-	-	A	-	-	A	-	-	-	-	-	-	-	A	-	-	-	-	-	A	-	-	A	-	-	-	-	-	-	-	-	-	-	-
+SV7G00282400	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	A	T	T	A	A	A	A	A	A	A	A	-	A	A	A	A	A	T	A	A	A	T	A	A	T	T	A	A	A	A	-	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	T	A	A	A	A	A	A	A	A	A	A	A	A	A	A	A	T	A	-	A	T	A	A	A	A	A	A	A
+SV7G00282500	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T
+SV7G00282600	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	A	T	T	T	T	T	T
+SV7G00282700	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	A	-	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	-	T	T	-	-	-	T	T	T
+SV7G00282800	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	T	-	-	A	T	T	T	T	T	T	T	T	T	-	T	T	T	T	T	-	T	T	-	-	-	T	T	T
+SV7G00282900	-	-	-	-	-	-	-	-	-	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	A	-	-	-	-	-	-	-	-	-	-	-	-	-
+SV7G00283000	-	-	-	-	-	-	-	-	A	A	A	-	-	-	-	-	-	-	-	-	-	-	A	-	-	A	A	-	-	-	-	A	-	-	-	-	-	-	-	-	-	A	A	A	-	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+SV7G00283100	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+SV7G00283200	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	A	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-	-
+;
+endblock;
