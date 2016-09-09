@@ -1,0 +1,16 @@
+awk '
+ {
+  if($1 ~ /_Ea/)
+    print $1  "\t"  1;
+  else if ($1 ~ /_Eu/)
+    print $1  "\t"  2;
+  else if ($1 ~ /_Xi/)
+    print $1  "\t"  3;
+  else if ($1 ~ /_In/)
+    print $1  "\t"  4;
+  else if ($1 ~ /_ha/)
+    print $1  "\t"  5;
+  else
+    print "\t\t";
+ }
+    '  temp-colum1
