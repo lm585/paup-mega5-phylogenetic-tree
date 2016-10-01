@@ -1,0 +1,28 @@
+#
+cut -f 1 out | while read ll
+do
+  a=`grep "$ll	" cucumber-sampleID-popu-13hardwickii | wc -l`
+  if [ $a -eq 0 ]
+  then
+    awk 'BEGIN{FS = "\t";}
+    {
+     if($1 == "'$ll'")
+     {
+      if($2 ~ /East/)
+        print $1 "_Ea	1";
+      else if($2 ~ /Eurasian/)
+        print $1 "_Eu	2";
+      else if($2 ~ /Xishuangbanna/)
+        print $1 "_Xi	3";
+      else if($2 ~ /Indian/)
+        print $1 "_In	4";
+      else;
+     }
+    }
+     ' cucumber-sampleID-popu 
+    
+  else
+    echo -n "$ll"_ha	
+    echo "	5"
+  fi
+done
